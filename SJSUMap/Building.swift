@@ -16,6 +16,8 @@ class Building {
     var photo: UIImage?
     var lat: Float
     var lng: Float
+    var time: String?
+    var distance: String?
     
     // MARK: Initialization
     
@@ -26,6 +28,6 @@ class Building {
         self.address = address
         self.lat = lat
         self.lng = lng
-        
     }
+    
 }

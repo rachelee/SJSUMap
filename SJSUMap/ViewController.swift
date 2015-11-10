@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     // MARK: Properties
+    @IBOutlet weak var SearchBar: UISearchBar!
     var buildings = [Building]()
     
     override func viewDidLoad() {
